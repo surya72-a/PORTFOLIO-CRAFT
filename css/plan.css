@@ -1,0 +1,108 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 80px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  color: #B8860B; /* Golden color */
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.plan {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.plan h2 {
+  font-size: 18px;
+  color: #B8860B;
+}
+
+.plan p {
+  font-size: 14px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.plan ul {
+  list-style-type:circle;
+  padding: 0;
+  margin: 10px 0 25px 15px;
+  text-align: start;
+}
+
+.plan ul li {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: #B8860B;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #A0740A;
+}
+
+.plan.basic {
+  background-color: #fef9f2;
+  transition:ease-in-out;
+  transition: all 0.75s ; 
+}
+.plan.basic:hover{
+  background-color: #fff5e1;
+  border: 2px solid #B8860B;
+  transition: all 1s;
+}
+.plan.upgrade{
+  background-color: #fef9f2;
+}
+.plan.upgrade:hover {
+  background-color: #fff5e1;
+  border: 2px solid #B8860B;
+}
+
+.plan.upgrade button {
+  position: relative;
+}
+
+.plan.upgrade button::before {
+  content: "👑";
+  position: absolute;
+  left: -30px;
+  bottom: 8px;
+  font-size: 18px;
+}

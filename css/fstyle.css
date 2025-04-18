@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.header {
+    margin:0px 0px 20px 535px;
+}
+
+.logo {
+    height: 100px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.laptop-image img {
+    width: 500px;
+    height: 300px;
+    margin: 40px 40px 60px 40px;
+}
+
+.form-container {
+    margin-left: 20px;
+    padding: 20px;
+
+    max-width: 330px;
+}
+
+.form-container h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: calc(100% - 30px);
+    padding: 10px;
+    margin: 10px 6px 10px 0px;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    background-color: rgb(218, 216, 216);
+    color: #000;
+}
+
+.name-fields {
+    display: flex;
+   
+}
+
+.name-fields .input-field {
+    margin-right: 10px;
+    width: 49%;
+}
+
+.login-link {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 14px;
+}
+.login-link span{
+    font-weight: bold;
+}
+.login-link a {
+    color: #f68026;
+    text-decoration: none;
+}
+
+.signup-button {
+    width: 100px;
+    padding: 10px;
+    background-color: #f68026;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.social-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.social-login span {
+    margin-bottom: 10px;
+}
+
+.social-button {
+    width: 100px;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#buttons{
+    display: flex;
+}
+.social-button.apple {
+    margin-right: 10px;
+    background-color: #f68026;
+    color: white;
+}
+
+.social-button.google {
+    background-color: #f68026;
+    color: white;
+}

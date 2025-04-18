@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Craft</title>
+    <link rel="stylesheet" href="/css/fstyle.css">
+    <link rel="icon" href="/images/logo.jpg" />
+    <script src="/script/script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="/images/logo.jpg" alt="Portfolio Craft Logo" class="logo">
+        </div>
+        <div class="content">
+            <div class="laptop-image">
+                <img src="/images/signupimg.png" alt="showcasing portfolio">
+            </div>
+            <div class="form-container">
+                <form action="index.php" method="post">
+                    <div class="name-fields">
+                        <input type="text" placeholder="First name" name="firstname" class="input-field">
+                        <input type="text" placeholder="Last name" name="lastname" class="input-field">
+                    </div>
+                    <input type="email" placeholder="Email" name="email" class="input-field">
+                    <input type="password" placeholder="Password" name="password" class="input-field">
+                    <input type="password" placeholder="Confirm password" name="confirmpassword" class="input-field">
+                    <div class="login-link">
+                        <span>Already have account -> <a href="/html/Login Page.html">Login</a></span>
+                    </div>
+                    <div>
+                        <div class="social-login"> <button type="submit" class="signup-button" onclick="bot()">Sign up</button>
+                        </div>
+                        <div class="social-login">
+                            <span>or</span>
+                            <div id="buttons">
+                                <button type="button" class="social-button apple">Apple</button>
+                                <button type="button" class="social-button google">Google</button></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

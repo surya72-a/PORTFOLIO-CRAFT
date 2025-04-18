@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 2500px;
+    overflow: hidden;
+}
+
+.left-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustration img {
+    max-width: 100%;
+    height: auto;
+}
+
+.right-side {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    width: 100%;
+    width:300px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input {
+    width: 100%;
+    background-color: rgb(218, 216, 216);
+    padding: 10px 10px 10px 25px;
+    margin-bottom: 40px;
+    color: #272626;
+    border: 1px solid #cccccc6c;
+    border-radius: 20px;
+}
+#color-txt{
+    color: #272626;
+}
+.login-form .create-account {
+    color: #d07b27;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.login-form{ 
+    align-items: center;
+}
+
+.login-form button {
+    width: 100px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #d07b27;
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #a55b1d;
+}

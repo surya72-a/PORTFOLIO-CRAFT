@@ -1,0 +1,126 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header .logo img {
+  width: 40px;
+}
+
+header .logo h1 {
+  color: #B8860B; /* Gold color */
+  font-size: 24px;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li {
+  font-size: 16px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #B8860B;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+.template {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  height: 250px;
+}
+
+.card img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: 150px;
+}
+
+.buttons button {
+  background-color: #B8860B;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #A0740A;
+}
+
+#see-more {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#see-more button {
+  background-color: #B8860B;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#see-more button:hover {
+  background-color: #A0740A;
+}
+.pro button{
+  position: relative;
+}
+.pro button::before{
+  content: "👑";
+  position: absolute;
+  bottom: 31px;
+  left:-10px;
+  font-size: 30px;
+  rotate: -25deg;
+}
+
